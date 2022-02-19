@@ -1,0 +1,303 @@
+1) What is CSS?
+CSS stands for Cascading Style Sheet. It’s a style sheet language that determines how the elements/contents in the page are looked/shown. 
+CSS is used to develop a consistent look and feel for all the pages.
+
+2) What is the Box model in CSS? Which CSS properties are a part of it?
+A rectangle box is wrapped around every HTML element. The box model is used to determine the height and width of the rectangular box. 
+The CSS Box consists of Width and height (or in the absence of that, default values and the content inside), padding, borders, margin.
+
+Content:  Actual Content of the box where the text or image is placed.
+Padding: Area surrounding the content (Space between the border and content).
+Border: Area surrounding the padding.
+Margin: Area surrounding the border.
+
+3) Different ways to include CSS in the webpage?
+External Style Sheet: An external file linked to your HTML document: Using link tag, we can link the style sheet to the HTML page.
+<link rel="stylesheet" type="text/css" href="mystyles.css" />
+
+Embed CSS with a style tag: A set of CSS styles included within your HTML page.
+<style>
+/*Add style rules here*/
+</style>
+
+Add inline styles to HTML elements(CSS rules applied directly within an HTML tag.): Style can be added directly to the HTML element using a style tag.
+<h2 style="color:red;background:black">Inline Style</h2>
+
+Import a stylesheet file (An external file imported into another CSS file): Another way to add CSS is by using the @import rule. 
+@import "path/to/style.css";
+
+4) What are the different types of Selectors in CSS?
+
+5) What is a CSS Preprocessor?
+A CSS Preprocessor is a tool used to extend the basic functionality of default vanilla CSS through its own scripting language. 
+It helps us to use complex logical syntax like – variables, functions, mixins, code nesting, and inheritance to name a few, supercharging your vanilla CSS.
+
+6) What is vh/vw (viewport height/ viewport width) in CSS?
+
+7) Difference between reset vs normalize CSS?. How do they differ?
+Reset CSS: CSS resets aim to remove all built-in browser styling. For example margins, paddings, font-sizes of all elements are reset to be the same. 
+
+Normalize CSS: Normalize CSS aims to make built-in browser styling consistent across browsers. It also corrects bugs for common browser dependencies
+
+8) What is the difference between inline, inline-block, and block?
+Block Element: The block elements always start on a new line. They will also take space for an entire row or width. List of block elements are <div>, <p>.
+
+Inline Elements: Inline elements don't start on a new line, they appear on the same line as the content and tags beside them. 
+Some examples of inline elements are <a>, <span> , <strong>, and <img> tags. 
+
+Inline Block Elements: Inline-block elements are similar to inline elements, except they can have padding and margins and set height and width values.
+
+9) What are Pseudo elements and Pseudo classes?
+Pseudo-elements allows us to create items that do not normally exist in the document tree.
+for example 
+::after
+::before
+::first-letter
+::first-line
+::selection
+
+Pseudo-classes select regular elements but under certain conditions like when the user is hovering over the link.
+:link
+:visited
+:hover
+:active
+:focus
+
+10) Explain CSS position property?
+
+11) When does DOM reflow occur?
+Reflow is the name of the web browser process for re-calculating the positions and geometries of elements in the document, 
+for the purpose of re-rendering part or all of the document. 
+
+Reflow occurs when:
+Insert, remove or update an element in the DOM.
+Modify content on the page, e.g. the text in an input box.
+Move a DOM element.
+Animate a DOM element.
+Take measurements of an element such as offsetHeight or getComputedStyle.
+Change a CSS style
+
+12) @media properties?
+All → It’s the default property. Used for all media-type devices.
+Screen → Used for computer screen, mobile screen.
+Print → Used for printers.
+Speech → Used for screen readers
+
+13) What does !important mean in CSS?
+
+14) What is specificity? How to calculate specificity?
+
+CSS Best Practices:
+
+1. Use a Preprocessor
+CSS preprocessors help you write less CSS faster and in a better way. 
+They are full of tools and utilities that help you organize, avoid repetition, and modularize your CSS.
+
+2. Separate global vs local style
+
+3. Modularize your style
+You don’t need to bundle all CSS in one file unless it will be used. If a user lands on the home page, 
+only include the styles for that page, nothing else. I even go as far as to separate stylesheets into essential vs non-essential styles. 
+Essential styles are those that once the page loads the user sees them and non-essential styles are those for components that remain hidden 
+like dialog, Snack-bars, and notifications. Elements or components that require user action to be displayed.
+
+4. Lazy load stylesheets correctly
+There are many ways to lazy load your CSS and it is often easier when using bundlers like WebPack and playing around with dynamic import. 
+You can create your own Javascript CSS loader or you can defer non-critical CSS by playing with the <link> tag when including stylesheets in your page.
+
+5. Write Generic Styles as much as possible for reusability
+
+6. Read CSS as the Browser does
+Look at the following selector:
+nav ul li a
+You most likely read it from left to right but browsers read it from right to left which means, 
+it finds all the <a> tags on the page then filters it to include only those inside <li>, 
+then again filters to include only those inside a <ul> then finally only those inside a <nav>. 
+This is so it fails to match as fast as possible. If there is no <a> tag there is no need to start matching from <nav> to only find out that there is no <a> tag.
+
+7. Avoid inline styles
+The only thing that can overwrite an inline style is the usage of !important flag and as you will read on the next block, 
+the !important flag can be bad and inline styles call for it.
+
+8. Write CSS consistently
+Consistency is key. Even if you are doing everything wrong, remain consistent as it will be easier to fix them later. 
+Find a naming convention that works for you, adopt a CSS methodology, organize styles the same way, define how many levels you nest selectors, etc. 
+Define your style and stick to it and improve it over time.
+
+9. Turn common tricks into utility classes
+If you find yourself applying tricks or the same styles over and over again, turn them into class-utils to be used directly on the HTML tag. 
+For me, these are things like center with display flex or grid so I create a class .center-flex and .center-grid. Create class 
+utilities to automate these repetitive style combinations.
+
+10. Use relative units more (Responsive Design)
+You should really try to use relative units more. Things like em, rem, %, vw, vh, fr, etc. 
+Setting fix values with px and pt should be things for static design although there are cases that call for these value units. 
+The browser is flexible, so should your website and units.
+
+11. Be aware of expensive properties
+The browsers are super fast now but from time to time, on complex websites, I see some painting issues related to setting box-shadow, 
+border-radius, position, filter, and even width and height, especially for complex animations or repetitive changes. 
+These require the browser to do complex re-calculations and repaint the view again down to every nested child.
+
+12. Normalize or Reset your CSS
+Every browser comes with a default style for the elements and these vary, therefore, there is a chance that your thing may look one way in one browser, 
+and different in another, it may have an extra border or shape you were not expecting. By resetting or normalize your CSS you streamline 
+these things and give your style a better chance to look the same in any browser.
+
+13. Consider better font loading strategy
+You can continue to use @font-face to define your fonts but use the <link/> tag to load your fonts so you are able to defer them especially 
+if you have more than 1 font file.
+
+14. Avoid too many font files
+Maybe the designers handed you too many font files which is a red flag. A website with too many fonts can be chaotic and confusing so, 
+always make sure you are including the fonts you will need for the page. Fonts can take time to load and be applied and when you have 
+too many fonts your UI normally jumps into place after the fonts are loaded.
+
+15. Minimize CSS
+Before you load your CSS into the browser, minimize it. You can use a post-processor or make it a simple build process step of your site deployment. 
+Smaller CSS file will load faster and start to be processed sooner.
+
+16. Use CSS variables
+My #1 reason to use a pre-processors was the variables and CSS variables are way better because they stick around when loaded in the browser. 
+The support is good and it allows you to create a more flexible and reusable UI, without mentioning it helps you create a more powerful design system and features.
+
+17. Avoid hard to maintain hacks (Easy to upgrade and maintain)
+Whenever you introduce a hack to your style, it is best to put it in a separate file to make it easier to maintain, for example, hacks.css. 
+As your codebase grows it becomes hard to find them and address them, overall, try to avoid hacks all together if possible.
+
+18. Format Text with CSS
+CSS can format your HTML text. No need to manually write all caps, all lower or capitalized words in your HTML. 
+Changing a CSS property value is way faster to change than going around changing all the text in HTML, and it is also better for 
+internationalization as it allows you to write the text as you want and manipulate how it looks with CSS.
+
+19. Validate CSS
+W3 organization provides a free CSS validator you can use to make sure your CSS follows general guidelines for correct CSS style rules and guidelines.
+
+20. Style to be responsive or at least fluid
+You are creating something to go in the browser which means that people will access it in a variety of device types and sizes. 
+Really consider improving the experience for these people by considering fluid or responsive design. 
+If your project does not include a responsiveness plan, try to at least remain fluid.
+
+21. Let the content define the size
+Instead of setting the width and height of a button for example, consider setting some padding for spacing and including a max-width 
+instead and max-height instead unless the design calls for a strict size.
+
+22. Follow a CSS methodology
+CSS methodologies will ensure consistency and future proof your styles. There are a few options to try or you can even adopt multiple.
+BEM (Block Element Modifier) — This is a powerful methodology intended to separate block (components) vs elements (component parts) and modifiers 
+(component and element states) using a class naming convention.
+http://getbem.com/introduction/
+
+BEM: Blocks, Elements and Modifiers
+No matter what methodology you choose to use in your projects, you will benefit from the advantages of more structured CSS and UI. 
+Some styles are less strict and more flexible, while others are easier to understand and adapt in a team.
+
+Block: Standalone entity that is meaningful on its own.
+Examples: header, container, menu, checkbox, input, card, etc
+
+Element: A part of a block that has no standalone meaning and is semantically tied to its block.
+Examples: menu item, list item, checkbox caption, header title, card image, card title, card description, etc
+
+Modifier: A flag on a block or element. Use them to change appearance or behavior.
+Examples: disabled, highlighted, checked, fixed, size big, color yellow, active, etc
+
+The naming rules tell us to use block__element, block--modifier-value syntax.
+
+Ex: 
+<button class="button">
+	Normal button
+</button>
+<button class="button button--state-success">
+	Success button
+</button>
+<button class="button button--state-info">
+	Info button
+</button>
+
+.button {
+	display: inline-block;
+	border-radius: 3px;
+	padding: 7px 12px;
+	border: 1px solid #D5D5D5;
+	background-image: linear-gradient(#EEE, #DDD);
+	font: 700 13px/18px Helvetica, arial;
+}
+.button--state-success {
+	color: #FFF;
+	background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+	border-color: #4A993E;
+}
+.button--state-info {
+	color: #ccc;
+}
+
+Ex: 
+.card [for card state/modifier, .card--active, .card-highlight]
+.card__img
+.card__title
+.card__descr
+.card__link--active
+
+Benefits
+Modularity
+Block styles are never dependent on other elements on a page, so you will never experience problems from cascading.
+You also get the ability to transfer blocks from your finished projects to new ones.
+
+Reusability
+Composing independent blocks in different ways, and reusing them intelligently, reduces the amount of CSS code that you will have to maintain.
+With a set of style guidelines in place, you can build a library of blocks, making your CSS super effective.
+
+Structure
+BEM methodology gives your CSS code a solid structure that remains simple and easy to understand.
+
+
+23. Use shorthand forms to reduce amount of code
+
+24. Use only well supported styles (Check caniuse website for compatibility i,e Cross-browser compatibility)
+
+25. Use higher specificity only when it is required, try to keep it simple
+
+26. Avoid constantly overwriting/undoing style
+A huge red flag is one that you write a CSS style and then somewhere else you write the same CSS with different values, pretty much-overwriting everything. 
+If you are constantly doing this, there is clearly something wrong with the way you are approaching styling your project.
+
+You should almost never fall into the situation where you need to overwrite your own styles. It shows that you have style variations and 
+you probably did not plan your UI before hand.
+
+27. Add animation declarations last
+Another thing you can do is put your animation @keyframes in a separate file and include it at the end of your stylesheet or simply import it last. 
+This will ensure your entire style is read before the browser tries to perform any of the animations on load.
+
+28. Don't mix third-party CSS overwrites with yours
+Whenever you write a style to overwrite a third-party library, consider putting it in a separate file for easy tracking and maintainability. 
+If you decide to get rid of the library later, it will be easier to remove, and putting them in their own file is already self-documentation.
+
+29. Specify the properties you need transition for
+When you are specifying transition, always include all the names of properties you intend to transition. 
+Using the “all” or leaving the property name out will force the browser to try to transition everything and affect the transition performance.
+
+30. Avoid using id attributes everywhere
+Use it for something truly unique on the page like a logo and containers;
+Don’t use it on or inside components that are meant to be re-used;
+Use it on headings and sections of the website you want to link to;
+Use an id generator to ensure uniqueness if necessary;
+
+31. Be aware of styles order
+CSS stands for Cascading StyleSheets which means that whatever comes last has the potential to overwrite previous styles so order your 
+styles in an order that ensures that the style you want will be applied. It is all about understanding your way around CSS specificity.
+
+32. Box size border-box everything
+* {box-sizing: border-box;} // border and padding does not affect elements width and height.
+
+33. Avoid color names (Declare color names in variables for reuse/modify etc)
+Prefer to specify your color values with hex and color functions instead of saying red, purple, cyan. 
+There are millions of hex color values and not a name for all of them. For consistency's sake, find one way to add colors and stick to it.
+
+34. Try to organize CSS to match the Markup Order
+It sure makes for an easier way to understand your markup just by looking at your CSS. It is something I do and saves me a lot of time.
+
+35. Hyphens or underscore? (Consistant Naming for class names)
+The most common separator for class and id names is hyphen but whatever you pick, stick to it.
+
+36. Find a CSS solution before you reach for Javascript Help
+Ex: Use CSS to show > in breadcrumbs rather than an HTML element and hiding/showing it using JS
