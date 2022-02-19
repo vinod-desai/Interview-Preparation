@@ -1,0 +1,160 @@
+1) What is HTML?
+HTML is the abbreviation for Hypertext Markup Language. It is the typical documents’ markup language for developing web pages to display on the web browser.
+The extensions used to save HTML pages are .html and .htm.
+
+2) What is the key difference between HTML Elements and Tags?
+HTML Elements
+The sections of the web page, such as a paragraph, an image, or a link is an element, and an element has a certain way of execution. 
+For example, the link is used to be clicked, and the text boxes can be used to input text.
+
+HTML Tags
+HTML elements communicate with the browser how to represent the text and become HTML tags when enclosed within angular brackets <>.
+
+3) What are Attributes in HTML?
+An additional attribute is given to each tag to alter the behavior of the tag. 
+Attributes are defined directly after the tag name, inside the angular brackets. They appear in opening tags and can never appear in closing tags.
+For example:
+You can define an attribute for the <input> tag, such as a text field, checkbox, radio button, or many more ways.
+
+4) What is an Anchor tag in HTML?
+An anchor tag is used to link two sections, web pages, or website templates in HTML.
+Its format is:
+<a href=”#” target=”link”></a>
+Where ‘href’ is an attribute of the anchor tag used to identify the sections in a document, the ‘link’ is defined in the target attribute, which is to be linked.
+The target attribute specifies where to open the linked document.
+<a target="_blank|_self|_parent|_top|framename">
+
+5) What are Forms in HTML?
+Forms are used to collect the user information when they are filled, and details are provided to save into the database.
+
+6) What is semantic HTML?
+Semantic HTML is one style of coding, where the tags convey the meaning of the text. HTML uses semantics to reinforce the semantics or purpose of the content.
+i,e Using correct tags for web layout.
+header tag for page header, main tag for page main content, nav tag for nav links in the page etc.
+b tag for bold, i tag for italics etc.
+
+7) What is an Image Map?
+The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags.
+https://www.w3schools.com/html/html_images_imagemap.asp
+
+8) What are semantic tags in html?
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+Semantic Elements in HTML
+Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer.
+
+In HTML there are some semantic elements that can be used to define different parts of a web page:
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+9) HTML best practices.
+
+10) Do all HTML tags have an end tag?
+No. There are some HTML tags that don't need a closing tag. For example: <image> tag, <br> tag.
+
+11) What are empty elements?
+HTML elements with no content are called empty elements. For example: <br>, <hr> etc.
+
+12) What is the use of an iframe tag?
+An iframe is used to display a web page within a web page.
+
+13) What is HTML5?
+HTML5 is the improved HTML version released in 2014 by the World Wide Web.
+below are the some of the new characteristics in HTML5.
+DOCTYPE declaration, main, section, header, footer, article, audio, video etc tags.
+
+14) If I do not put <!DOCTYPE html> will HTML 5 work?
+No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly.
+
+15) Why is the Embed Tag Used in HTML?
+An Embed Tag is used for including a Video or Audio in an HTML Document. 
+A source of audio or video file to be displayed on the webpage is defined within an Embed tag as:
+<EMBED> Source </EMBED>.
+
+16) What is a ‘Marquee’ Tag in HTML?
+You can put scrolling text with a Marquee tag. With the help of this tag, an image or text can be scrolled up, down, left, or right.
+
+
+HTML Best Practices:
+1. Use proper document structure
+HTML documents will still work without elements such as <html>, <head>, and <body>. 
+However, the pages will not render correctly in every browser so it's important to be consistent using the proper document structure.
+
+2. Declare the correct doctype
+When creating an HTML document, the first thing to declare is the doctype. 
+This will tell the browser the standards you are using to render your markup correctly. The doctype goes before the <html> tag at the top of the page.
+
+3. Always close tags
+To avoid encountering validation errors always remember to have a closing tag for every tag you create.
+
+4. Don't use inline styles and JS (Separate Content from Presentation)
+inline styles are not a good coding practice because it makes it harder to update and maintain a website. Instead, keep your styles separate from your HTML mark-up.
+Separation of Concerns and Easy to maintain the code.
+
+5. Use alt attribute with images
+it is important to have a meaningful alt attribute for validation and accessibility reasons. 
+The alt attribute provides context to screen readers so it should be descriptive as to what the image contains.
+
+6. Place external style sheets within the <head> tag
+Although external style sheets can be placed anywhere in the HTML document, 
+it is best practice to place them within the <head> tag. This will allow your page to load faster.
+
+7. Use meaningful tags (Don’t Use Divs for Everything)
+It's best to avoid excessive use of generic tags, such as <div>, when there could be a more descriptive tag for the job such as <section>, <article>, and so on.
+
+<style>	Defines style information for a document
+<title>	Defines a title for the document, The <title> tag helps make a web page more meaningful and search-engine friendly (Code With SEO in Mind)
+<header>	Defines a header for a document or section
+<nav>	Defines navigation links (Use an Unordered List (<ul>) for Navigation)
+<main>	Specifies the main content of a document
+<section>	Defines a section in a document
+<form>	Defines an HTML form for user input
+<picture>	Defines a container for multiple image resources
+<footer>	Defines a footer for a document or section
+
+<template>	Defines a container for content that should be hidden when the page loads
+<noscript>	Defines an alternate content for users that do not support client-side scripts
+
+8. Use lowercase markup
+
+9. Reduce the number of elements on a page
+HTML documents can become complicated, especially for webpages with a lot of content. To reduce the size of your pages, 
+check for opportunities to further optimize your code once you are finished with your markup.
+ 
+ 
+10. Use Descriptive Meta Tags
+Meta tags make your web page more meaningful for user agents like search engine spiders.
+
+11. Minify and Unify HTML/CSS/JS
+
+Unify: Group multiple related code into one file to reduce the network request
+
+10. Use Heading Elements Wisely
+Learn to use <h1> to <h6> elements to denote your HTML’s content hierarchy. 
+This helps make your content more meaningful for screen-reading software and search engines, as well as other user agents.
+
+11.Use Title Attributes with Links (When Needed)
+Using a title attribute in your anchor elements will improve accessibility when used the right way.
+It is important to understand that the title attribute should be used to increase the meaning of the anchor tag.
+
+12. Use Fieldset and Labels in Web Forms
+Use the <label> element to label input fields. Divide input fields into logical sets using <fieldset>. 
+Name a <fieldset> using <legend>. All of this will make your forms more understandable for users and improve the quality of your code.
+
+13. Write Consistently Formatted Code
+Write well-indented and consistently formatted codes
