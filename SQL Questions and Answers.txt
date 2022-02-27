@@ -1,0 +1,31 @@
+1) What is SQL?
+2) Schema?
+3) DDL – Data Definition Language
+DQL – Data Query Language
+DML – Data Manipulation Language
+DCL – Data Control Language
+TCL – Transaction Control Language
+4) Views and Materialized Views?
+5) Updatable Views?
+6) Row level Security?
+7) Why we need views?
+8) Clustered and Non Clustered Indexes?
+9) Why we need indexes?
+10) Difference between Stored Procedure and Functions?
+11) Can we have Multiple Clustered Indexes?
+12) Can we have Non Clustered Index as Clustered Index? No
+13) Deleting Duplicate Rows from table.
+15) Bulk update SQL.
+16) What are joins? Explain Inner, Left, Right and Outer joins?
+17) Subqueries?
+18) Difference between Joins and Subqueries?
+19) SQL and NoSQL DBs? Use cases and when to use one over other?
+20) Normalization of tables?
+21) ACID Properties?
+22) What are transactions?
+23) Difference Delete and Drop commands?
+24) Explain Deadlock?
+25) Query Optimization techniques?
+26) Lazy loading?
+27) Magic Tables (INSERTED, DELETED)
+
