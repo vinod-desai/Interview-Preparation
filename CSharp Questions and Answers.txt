@@ -1,0 +1,30 @@
+1) try-catch block, chaining multiple catch statements.
+2) Tuples in C#?
+3) Difference between hashtables and dictionary?
+4) ref in C#?
+5) Returning multiple value from function/method.
+6) Method Overriding, Method Overloading?
+7) OOPs Encapsulation, Abstractions, Inheritance, Polymorphism.
+8) Two Types of Polymorphism 1) Static/Compile Time ex: Method Overloading, 2) Dynamic/Run Time ex: Method Overriding.
+9) SOLID Design Principles.
+10) Single Class Inheritance, Multiple Interface Inheritance.
+11) How to make methods thread safe.
+12) Singleton Design Pattern?
+13) Abstract, Sealed, Partial Class.
+14) access modifiers? Public, Private, Protected, Internal, etc.
+15) Multi Threading?
+16) Garbage Collection?
+17) Using keyword.
+18) Static Class?
+19) Difference Static class and Singleton Design Pattern.
+20) Difference between Array and List?
+21) Difference  between IQueryable and IEnumerable?
+22) Private Methods in Controller Class.
+23) What is Serialization and Deserialization?
+24) Use of Static Constructor?
+25) Abstract Class Constructor and Its use?
+26) Can we implement multiple interfaces, all interfaces having same method signatures?
+27) String Builder?
+28) C# Runtime, dot net core and dot net framework?
+29) C# Best Practices?
+30) C# Generics?
