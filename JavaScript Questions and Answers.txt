@@ -1,0 +1,46 @@
+1) What is JavaScript?
+2) Is JS single threaded?
+3) Is JS Asynchronous?
+4) How Asynchronous works in JS?
+5) What is Closures?
+6) What are Promises?
+7) What are Observables?
+8) Difference between Promise and Observable?
+9) What are callbacks?
+10) What is IIFE?
+11) Function Declaration, Function Statement, Function Expression, Anonymous Functions, First Class Functions, Functions are First Class Citizens.
+12) What are Higher Order Functions?
+13) SetTimeout, SetInterval?
+14) Garbage Collection?
+15) Debouncing and Throttling
+16) Advantages and Disadvantages of Closures, IIFE?
+17) Temporal Dead Zone TDZ?
+18) Prototype Inheritance?
+19) Objects and __proto__?
+20) var, let and const?
+21) rest and spread operators?
+22) Shallow and Deep Cloning?
+23) JSON?
+24) Function call, apply, bind?
+25) Memoization?
+26) AJAX and XMLHttpRequest?
+27) addEventListeners and removeEventListeners?
+28) Event Delegation, Event Propagation?
+29) Event Bubbling and Event Capturing?
+30) Module Pattern?
+31) JavaScript Runtime Environment, WebAPIs, event loop, microtask queue, macrotask queue?
+32) Async and Defer Script attribute?
+33) Async and Defer works only for external scripts but not for inline scripts.
+34) window.onload and document.ready events?
+35) Variable Scope and Scope Chain?
+36) JavaScript does not support function overloading natively.
+37) Pure Functions?
+38) Set and Map data structures?
+39) What is TypeScript? Why we need TypeScript?
+40) What is 'Use Script' statement and why we need it?
+41) Pollyfills for Function bind method?
+42) typeof operator.
+43) toString 'object Object'? Object.toString()
+44) CORS?
+45) CRP - Critical Rendering Path?
+46) Web Vitals?
