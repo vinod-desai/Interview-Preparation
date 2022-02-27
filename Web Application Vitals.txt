@@ -1,0 +1,19 @@
+1) Web Vitals?
+2) How web page is loaded in browser?
+3) Web Security?
+4) Service Worker?
+5) Cookies, Local Storage, Session Storage?
+6) CORS
+7) Best Practices of HTML, CSS, JavaScript, Angular, C#, SQL etc?
+8) Application Security Configuration?
+9) SEO?
+10) Responsive Web Application?
+11) PWA?
+12) Application Architecture?
+13) Unit Testing
+14) Web APIs?
+15) HTTP GET/POST/PUT/DELETE/PATCH Method
+16) HTTP Web API Response code
+17) Client Side and Server Side error logging.
+18) Cache web resources?
+19) Client Side and Server Side caching?
