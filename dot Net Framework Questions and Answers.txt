@@ -1,0 +1,10 @@
+1) What is ASP.Net framework?
+2) dot net framework or dot net core framework?
+3) Creating Instances in dot net framework, AddScope, AddSingleton and AddTransient?
+4) Web APIs 2.0?
+5) Authentication and Authorization?
+6) Form based authentication?
+7) JWT and protecting APIs?
+8) Signle Sign On SSO?
+9) Configuring Dependency Injection DP?
+10) Multithreading?
