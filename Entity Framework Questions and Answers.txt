@@ -1,0 +1,9 @@
+1) ORM?
+2) What is Entity Framework and Why we need it?
+3) Difference between below statements?
+var result = dbContext.Employee.where(x => x.id == 2);
+var result = dbContext.Employee.where(x => x.id == 2).ToArray();
+4) Lazy Loading in EF?
+5) Using statement in EF?
+6) Difference ADO .Net and EF?
+7) EF approaches Code First, Model First and DB First?
