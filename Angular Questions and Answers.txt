@@ -26,3 +26,4 @@
 26) viewContentChild and viewContentChildren?
 27) content projection?
 28) modules? core, share, feature modules etc
+29) Lazy loading and Preloading?
