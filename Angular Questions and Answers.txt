@@ -1,0 +1,28 @@
+1) What is Angular?
+2) Why SPA?
+3) Architecture of Angular?
+4) What are components?
+5) Component Communication?
+6) What are Services?
+7) Singleton and Dependecy Injection?
+8) Angular Lifecycles?
+9) Observables and Subjects?
+10) Different types of Subjects?
+11) Pipes?
+12) Asych pipes?
+13) Why we have ngOnDestroy lifecycle?
+14) How to publish npm package?
+15) Directives, Components/Structural/Attribute Directives?
+16) HTTP Interceptors?
+17) Error Logging?
+18) RxJS?
+19) Angular State Management? ngrx
+20) Immutable data structure is modified in parent component and how child component detect changes?
+21) Input and Output Properties?
+22) Disadvantages of SPA?
+23) Route Guards?
+24) Canactivate route guard?
+25) viewChild and viewChildren?
+26) viewContentChild and viewContentChildren?
+27) content projection?
+28) modules? core, share, feature modules etc
