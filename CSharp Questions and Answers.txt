@@ -28,3 +28,5 @@
 28) C# Runtime, dot net core and dot net framework?
 29) C# Best Practices?
 30) C# Generics?
+31) Pass By Value and Pass By References?
+32) Nested Objects?
