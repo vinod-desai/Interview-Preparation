@@ -17,3 +17,4 @@
 17) Client Side and Server Side error logging.
 18) Cache web resources?
 19) Client Side and Server Side caching?
+20) What are Design Patterns and what design patterns have you used and where?
