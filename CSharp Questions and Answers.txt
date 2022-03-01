@@ -30,3 +30,5 @@
 30) C# Generics?
 31) Pass By Value and Pass By References?
 32) Nested Objects?
+33) Explain Abstract Class with real time example
+34) Explain Interfaces with real time examples
