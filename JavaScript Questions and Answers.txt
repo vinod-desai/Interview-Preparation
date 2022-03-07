@@ -44,3 +44,6 @@
 44) CORS?
 45) CRP - Critical Rendering Path?
 46) Web Vitals?
+47) What are Pipe and Compose in JS and Differences between them?
+48) Implement Throttling and Debouncing without SetTimeout. (This can be done using date i,e date and time object)
+49) Implement Promise.all
