@@ -9,7 +9,7 @@
 9) SEO?
 10) Responsive Web Application?
 11) PWA?
-12) Application Architecture?
+12) Application Architecture? [Tech Stack, Mircoservice/Monolith Architecture, DBs, Authentication/Authorization (Single Sign On, Form Based Authentication)]
 13) Unit Testing
 14) Web APIs?
 15) HTTP GET/POST/PUT/DELETE/PATCH Method
