@@ -18,3 +18,17 @@
 18) Cache web resources?
 19) Client Side and Server Side caching?
 20) What are Design Patterns and what design patterns have you used and where?
+21) What is Browser Object Model (BOM)?
+The Browser Object Model (BOM) is a browser specific convention referring to all the objects exposed by the web browser.
+Some of the examples of BOM Objects are document, location, history, navigator, screen, bluetooth, geolocation etc
+22) Difference between onload event and DOMContentLoaded event?
+The DOMContentLoaded event is fired when the document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading.
+The load event can be used to detect a fully-loaded page.
+The DOMContentLoaded event will fire as soon as the DOM hierarchy has been fully constructed.
+The load event will do it when all the images and sub-frames have finished loading.
+23) What is Shadow DOM?
+An important aspect of web components is encapsulation — being able to keep the markup structure, style, and behavior hidden and separate from other code on the page so that different parts do not clash, and the code can be kept nice and clean. The Shadow DOM API is a key part of this, providing a way to attach a hidden separated DOM to an element.
+https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
+24) Critical Rendering Path (CRP) and Preload Scanner.
+https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work
+https://www.udacity.com/course/website-performance-optimization--ud884
