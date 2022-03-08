@@ -32,3 +32,5 @@ https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
 24) Critical Rendering Path (CRP) and Preload Scanner.
 https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work
 https://www.udacity.com/course/website-performance-optimization--ud884
+25) Pollyfill for JSON.stringify() and JSON.parse()
+26) What is Server Side Rendering (SSR) and what are its pros and cons?
