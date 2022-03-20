@@ -28,4 +28,5 @@ TCL – Transaction Control Language
 25) Query Optimization techniques?
 26) Lazy loading?
 27) Magic Tables (INSERTED, DELETED)
-
+28) DB Horizontal and Verticle sharding? Ex: Table (Id, DateTime, Message(NVARCHAR MAX), Query this table by Message like '%searchText') which gets millions of records everyday. How to Optimize this kind of table queries.
+29) DB Profile Management?
