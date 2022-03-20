@@ -87,6 +87,12 @@ Speech → Used for screen readers
 
 14) What is specificity? How to calculate specificity?
 
+15) Flex Box Layout?
+16) CSS Grid Layout?
+17) What is flex-basis?
+18) Transform/Translate CSS Properties?
+19) SCSS Advantages?
+
 CSS Best Practices:
 
 1. Use a Preprocessor
