@@ -32,3 +32,6 @@
 32) Nested Objects?
 33) Explain Abstract Class with real time example
 34) Explain Interfaces with real time examples
+35) ref, out, in keywords in C#
+36) When to use String and String Builder?
+
