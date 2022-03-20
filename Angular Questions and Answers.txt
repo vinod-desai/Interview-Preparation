@@ -9,7 +9,26 @@
 9) Observables and Subjects?
 10) Different types of Subjects?
 11) Pipes?
-12) Asych pipes?
+12) Async pipes?
+The async pipe subscribes to an Observable or Promise and returns the latest value it has emitted. When a new value is emitted, the async pipe marks the component to be checked for changes. When the component gets destroyed, the async pipe unsubscribes automatically to avoid potential memory leaks.
+Async Pipe with Observable:
+* Async Subscribes Observable
+* Async Unsubscribes from Observable automatically when component gets destroyed
+* Async pipe calls markForCheck for each update - Perfect match for OnPush CD Strategy
+
+Displaying a Loading Animation or Error Message
+this.errorObject = null;
+this.asyncOps$ = asyncService.listOfCountries().pipe(
+  catchError(err => {
+    this.errorObject = err;
+    return throwError(err);
+  })
+);
+<ng-container *ngIf="asyncOps$ | async as data; else loadingOrError">
+  <!-- code here -->
+</ng-container>
+<ng-template #loadingOrError> <!-- some code here --> </ng-template>
+
 13) Why we have ngOnDestroy lifecycle?
 14) How to publish npm package?
 15) Directives, Components/Structural/Attribute Directives?
