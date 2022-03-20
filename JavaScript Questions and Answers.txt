@@ -47,3 +47,4 @@
 47) What are Pipe and Compose in JS and Differences between them?
 48) Implement Throttling and Debouncing without SetTimeout. (This can be done using date i,e date and time object)
 49) Implement Promise.all
+50) How to modify cookie, how to delete values in cookie?
