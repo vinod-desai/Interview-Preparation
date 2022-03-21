@@ -36,8 +36,8 @@ https://www.udacity.com/course/website-performance-optimization--ud884
 26) What is partial in TypeScript?
 27) What are the design patterns have you used in front end application?
 28) What are CSS Preprocessors? What are the advantages of CSS preprocessors?
-25) Pollyfill for JSON.stringify() and JSON.parse()
-26) What is Server Side Rendering (SSR) and what are its pros and cons?
-27) Micro Front End Architecture?
-28) Cyclomatic Code Complexity?
-29) Container Technology? VM vs Containers?
+29) Pollyfill for JSON.stringify() and JSON.parse()
+30) What is Server Side Rendering (SSR) and what are its pros and cons?
+31) Micro Front End Architecture?
+32) Cyclomatic Code Complexity?
+33) Container Technology? VM vs Containers?
