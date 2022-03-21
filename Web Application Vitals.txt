@@ -32,6 +32,10 @@ https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
 24) Critical Rendering Path (CRP) and Preload Scanner.
 https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work
 https://www.udacity.com/course/website-performance-optimization--ud884
+25) What is TypeScript? Why we need it? Advantages of TypeScript?
+26) What is partial in TypeScript?
+27) What are the design patterns have you used in front end application?
+28) What are CSS Preprocessors? What are the advantages of CSS preprocessors?
 25) Pollyfill for JSON.stringify() and JSON.parse()
 26) What is Server Side Rendering (SSR) and what are its pros and cons?
 27) Micro Front End Architecture?
