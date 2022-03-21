@@ -53,4 +53,6 @@ this.asyncOps$ = asyncService.listOfCountries().pipe(
 34) How to create reusable components ex: Auto Search Component/Search Ahead Component
 35) Subjects, Behaviour Subjects?
 36) RxJS Operators?
+of, from, fromEvent, map, tap, share, switchMap, debounceTime, distinctUntilChanged, Take (Take, TakeUntil, TakeWhile, TakeLast), first, mergeMap/flatMap, concat, forkJoin
+https://www.youtube.com/watch?v=5TnWFaI49aw&ab_channel=DavidAcosta
 37) How to communicate between sibling components?
