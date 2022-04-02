@@ -48,3 +48,9 @@
 48) Implement Throttling and Debouncing without SetTimeout. (This can be done using date i,e date and time object)
 49) Implement Promise.all
 50) How to modify cookie, how to delete values in cookie?
+51) Promise, Promise.all, Promise.allSettled(), Promise.any(), Promise.race()
+52) Rest and Spread Operators with Examples.
+53) Scope Chain in JS? Function Scope, Block Scope, Module Scope, Closure
+54) What is event bubbling and event trickling/capturing?
+55) Event delegation with real world example?
+56) Function Currying? Using Closure and Using bind method.
