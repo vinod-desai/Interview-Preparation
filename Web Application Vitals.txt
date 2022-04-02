@@ -41,3 +41,4 @@ https://www.udacity.com/course/website-performance-optimization--ud884
 31) Micro Front End Architecture?
 32) Cyclomatic Code Complexity?
 33) Container Technology? VM vs Containers?
+34) Managed Code and Unmanaged Code?
