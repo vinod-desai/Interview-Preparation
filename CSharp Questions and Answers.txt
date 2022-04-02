@@ -34,4 +34,5 @@
 34) Explain Interfaces with real time examples
 35) ref, out, in keywords in C#
 36) When to use String and String Builder?
-
+37) Exception Handling and Global Exception Handling in ASP.Net?
+38) Deferred execution in C#
