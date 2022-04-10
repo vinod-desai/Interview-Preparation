@@ -36,3 +36,6 @@
 36) When to use String and String Builder?
 37) Exception Handling and Global Exception Handling in ASP.Net?
 38) Deferred execution in C#
+39) Actions, Delegates and Predicates in C#
+40) Extenders in C#
+41) Async and Await function in C# and Its return type void/task
