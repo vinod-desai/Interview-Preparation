@@ -54,3 +54,13 @@
 54) What is event bubbling and event trickling/capturing?
 55) Event delegation with real world example?
 56) Function Currying? Using Closure and Using bind method.
+57) What are IndexDB and WebSql?
+58) What is a Micro and Macro Queue?
+59) What is 12-factor-app?
+60) What is pointer-free style?
+61) What are Purifying closures?
+62) What are Composition or Compound functions?
+63) What is the pattern design JavaScript follows?
+64) What is the module system and principle single tone in JavaScript?
+65) Implement clearAllTimeOut in JavaScript
+https://www.youtube.com/watch?v=rs2_yWOqsUk&ab_channel=DevtoolsTech
