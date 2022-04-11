@@ -39,3 +39,5 @@
 39) Actions, Delegates and Predicates in C#
 40) Extenders in C#
 41) Async and Await function in C# and Its return type void/task
+42) CLR - Common Langulage Runtime
+https://www.geeksforgeeks.org/common-language-runtime-clr-in-c-sharp/
